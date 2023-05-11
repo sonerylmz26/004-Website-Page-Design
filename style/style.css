@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,700&family=Poppins:wght@100;300;400;500;600&family=Rubik+Vinyl&family=Sorts+Mill+Goudy:ital@1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+/* Header Start */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+  padding: 1rem rem;
+}
+
+.header_logo img {
+  width: 30%;
+  margin-left: 20px;
+}
+
+.header_link {
+  display: flex;
+}
+.header_link a {
+  font-size: 2rem;
+  margin-right: 1.5rem;
+  text-decoration: none;
+  color: #920101;
+  font-weight: 700;
+}
+
+/* Header End */
+
+/* Nav-Bar Menu Start*/
+.navbar {
+  height: 8.6rem;
+  padding: 3.2rem;
+  position: sticky;
+  top: 0rem;
+  padding: 2rem;
+  background-image: linear-gradient(45deg, #fbda61 0%, #ff5acd 100%);
+  text-align: center;
+  z-index: 1;
+}
+
+.navbar a {
+  font-size: 2rem;
+  padding: 0 1.3rem 0 0;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #000;
+}
+.navbar a:hover {
+  color: rgba(0, 0, 0, 0.7);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.7);
+  border-bottom-width: medium;
+}
+/* Nav-Bar Menu End*/
+
+/* Section - Banner Menu Start  */
+.banner {
+background-image: url(../Images/banner.jpg);
+height: 668px;
+max-height: 668px;
+width: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+.banner h2{
+  font-size: 4.8rem;
+  color: #fff;
+  text-shadow: rgb(0,0,0) 0px 2px 4px;
+  position: absolute;
+  top: 150px;
+  left: 200px;
+}
+.banner h3{
+  font-size: 2.5rem;
+  color: #e43131;
+  text-shadow: rgb(128,0,0) 0px 2px 2px;
+  position: absolute;
+  top: 210px;
+  left: 200px;
+}
+.banner button{
+height: 3.8rem;
+width: 8.4rem;
+border-radius: 10px;
+text-align: center;
+border: none;
+outline: none;
+position: absolute;
+top: 250px;
+left: 200px;
+background-color: #d9afd9;
+font-size: 1.5rem;
+font-weight: 600;
+}
+.banner button:hover{
+  cursor: pointer;
+  background-color: #bda4bd;
+  transform: scale(1.1);
+}
+.text{
+  padding: 1.5rem;
+}
+.text p{
+  font-size: 2.3rem;
+  font-weight: 500;
+  padding: 1.2rem;
+text-align: justify;
+font-family: 'Sorts Mill Goudy', serif;
+
+}
+.slack{
+font-size: 4.2rem;
+padding: 3px 0 0 0 ;
+height: 52px;
+width: 52px;
+background-color: #ff0000;
+border-radius: 50%;
+text-align: center;
+position: sticky;
+left: 1840px;
+bottom: 12px;
+
+}
+.slack:hover{
+  outline: 2px dashed black;
+}
+
+.slack i{
+color: #fff;
+}
+
+.slack i:hover{
+  cursor: pointer;
+  color: #000;
+}
+/* Section - Banner Menu End  */
